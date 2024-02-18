@@ -1,0 +1,28 @@
+To check version 
+> python -V
+
+upgrade pip 
+>python -m pip install --upgrade pip 
+
+create project directory 
+>mkdir djangoproject 
+
+create virtual environment 
+>python -m venv djangov 
+
+Activate virtual environment 
+> django\Scripts\activate 
+
+install Django
+pip install django==3.1 
+
+check django version 
+django-admin --version 
+
+create django project 
+django -admin startproject djangopro 
+
+>cd djangpro 
+
+create app 
+>django-admin startapp djangoapp

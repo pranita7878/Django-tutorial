@@ -1,0 +1,80 @@
+MCQs:
+
+Which design pattern does Django follow?
+
+a) MVC (Model-View-Controller)
+b) MTV (Model-Template-View) ✅
+c) MVVM (Model-View-ViewModel)
+d) MVP (Model-View-Presenter)
+Explanation: Django adheres to the MTV architecture, separating data (models), presentation (templates), and logic (views) for effective web development.
+
+What is the primary purpose of Django ORM?
+
+a) Manage application logic
+b) Secure user authentication
+c) Handle database interactions ✅
+d) Serve static files
+Explanation: Django ORM (Object-Relational Mapper) offers a simplified interface for interacting with databases, abstracting SQL query complexity.
+
+What command creates a new Django project?
+
+a) django-admin createproject ✅
+b) django-admin startapp
+c) python manage.py createproject
+d) django-init
+Explanation: django-admin createproject lays the foundation for your Django project structure.
+
+What file contains global application settings in Django?
+
+a) urls.py
+b) models.py
+c) settings.py ✅
+d) wsgi.py
+Explanation: settings.py stores crucial project configurations like database settings, secret keys, and more.
+
+What are URL patterns in Django?
+
+a) Database connection configurations
+b) Templates for rendering HTML
+c) Mapping URLs to corresponding views ✅
+d) User account management tools
+Explanation: URL patterns in urls.py dictate how Django routes incoming requests to appropriate views based on URL matches.
+
+What Django template tag iterates over a list of objects?
+
+a) {% for item in list %} ✅
+b) {% if item in list %}
+c) {% loop item in list %}
+d) {% each item in list %}
+Explanation: The {% for item in list %} tag iterates over elements in a list, allowing you to generate dynamic content in templates.
+
+What is the role of context in Django views?
+
+a) Defines database models
+b) Specifies URL patterns
+c) Holds data passed to templates ✅
+d) Configures security settings
+Explanation: The context dictionary in views carries data from models and other logic to be rendered in templates.
+
+What does CSRF protection prevent in Django?
+
+a) Unauthorized data modification
+b) SQL injection attacks ✅
+c) File upload vulnerabilities
+d) User authentication failures
+Explanation: CSRF (Cross-Site Request Forgery) protection safeguards against malicious cross-site attacks by validating form submissions.
+
+What middleware handles static file serving in Django?
+
+a) AuthenticationMiddleware
+b) CsrfViewMiddleware
+c) SessionMiddleware
+d) StaticFilesMiddleware ✅
+Explanation: StaticFilesMiddleware ensures efficient delivery of static files (CSS, JavaScript, images) to user browsers.
+
+What Django signal is emitted when a new user is created?
+
+a) user_login
+b) user_registred ✅
+c) new_user
+d) account_created

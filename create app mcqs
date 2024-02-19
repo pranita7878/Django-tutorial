@@ -1,0 +1,11 @@
+Sr No	Question	Options	Answer
+1	Which command creates a new Django app within a project?	python manage.py app create <app_name> , django-admin startproject <app_name>, django-admin migrate <app_name>, pip install <app_name>	python manage.py app create <app_name>	
+2	What file serves as the entry point for an app, defining models, views, and URLs?	__init__.py, models.py, views.py, urls.py	__init__.py	
+3	Which architecture pattern does Django follow, structuring app logic?	MVC (Model-View-Controller), MVVM (Model-View-ViewModel), MTV (Model-Template-View) , MVP (Model-View-Presenter)	MTV (Model-Template-View)	
+4	What's the primary purpose of models in Django apps?	Define data validation rules, Handle user authentication, Represent data structures using classes, Implement business logic	Represent data structures using classes	
+5	What Django command registers models with the database for the app?	python manage.py migrate, python manage.py runserver, django-admin startproject, django-admin collectstatic	python manage.py migrate	
+6	What role do views play in Django apps?	Manage database interactions, Generate HTML responses , Define URL patterns, Provide form validation	Generate HTML responses	
+7	Where do you define URL patterns for your app within the project?	models.py, urls.py in your app directory, settings.py, views.py	urls.py in your app directory	
+8	Which language is used to write Django templates?	Python, JavaScript, DTL (Django Template Language), HTML	DTL (Django Template Language)	
+9	What command would you use to start the Django development server?	python manage.py runserver , django-admin runserver, pip install runserver, startproject runserver	python manage.py runserver	
+10	How do you ensure static files (CSS, JavaScript) are accessible in your app?	Copy them directly to the templates directory, Add them to the app's urls.py, Run django-admin collectstatic and specify them in settings.py, Include them in your models	Run django-admin collectstatic and specify them in settings.py	

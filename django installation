@@ -20,7 +20,7 @@ check django version
 django-admin --version 
 
 create django project 
-django -admin startproject djangopro 
+django-admin startproject djangopro 
 
 >cd djangpro 
 
